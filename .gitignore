@@ -1,2 +1,4 @@
 node_modules/
 assets/css/custom.css
+static/js/all.min.js
+static/css/all.min.css
