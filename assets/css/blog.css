@@ -40,28 +40,30 @@ h3 {
 
 .header {
     text-align: center;
-    top: auto;
     margin: 3em auto;
 }
 
 .sidebar {
-    background: rgb(61, 79, 93);
-    color: #fff;
+    background: #507DB0;
+    color: rgb(174, 201, 224);
 }
 
+.brand {
+    margin-bottom: 2rem;
+}
 .brand-title,
 .brand-tagline {
     margin: 0;
 }
 .brand-title {
-    text-transform: uppercase;
     font-family: "Oxygen", sans-serif;
+    font-size: 2.5em;
 }
-.brand-title a{
+.header a{
     color:#fff;
 }
 .brand-title a:hover{
-    text-decoration: none;
+    text-decoration: underline;
 }
 .brand-tagline {
     font-weight: 300;
@@ -74,13 +76,14 @@ h3 {
     list-style: none;
 }
 .nav-item {
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
+    /*display: inline-block;*/
+    /**display: inline;*/
+    /*zoom: 1;*/
+    margin-bottom: 10px;
 }
 .nav-item a {
     background: transparent;
-    border: 2px solid rgb(176, 202, 219);
+    /*border: 2px solid rgb(176, 202, 219);*/
     color: #fff;
     margin-top: 1em;
     /*letter-spacing: 0.05em;
@@ -91,8 +94,22 @@ h3 {
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border: 2px solid rgb(61, 146, 201);
-    text-decoration: none;
+    /*border: 2px solid rgb(61, 146, 201);*/
+    /*text-decoration: none;*/
+}
+
+.social {
+    margin-top: 2em;
+}
+
+.footnote {
+    font-size: 1em;
+    margin-top: 3rem;
+    color: rgb(174, 201, 224);
+}
+.footnote a{
+    color:#83D3F0;
+    font-weight: bold;
 }
 
 .content-subhead {
@@ -178,10 +195,6 @@ h3 {
     display:inline;
     padding: 0;
 }
-.hugo{
-    color:#333;
-    font-weight: bold;
-}
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
     background: none;
@@ -225,8 +238,8 @@ h3 {
     }
 
     .header {
-        margin: 80% 2em 0;
-        text-align: right;
+        margin: 20% 2em 0;
+        text-align: left;
     }
 
     .sidebar {
